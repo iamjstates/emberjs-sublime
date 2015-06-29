@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+export default Ember.Component.extend({
+  tagName: '${1}',
+  classNames: [],
+  ${2}
+});
+
+]]></content>
+    <description>Ember.Component.extend()</description>
+    <tabTrigger>component</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

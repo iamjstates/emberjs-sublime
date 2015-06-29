@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+export default Ember.Helper.helper(function(${1:helperParams}, ${2:helperHash}) {
+  return ${3:value};
+});
+
+]]></content>
+    <description>Ember.Helper.helper()</description>
+    <tabTrigger>helper</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+import Ember from 'ember';
+]]></content>
+    <description>import ES6 Ember</description>
+    <tabTrigger>import-ember</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

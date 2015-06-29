@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+export default Ember.Route.extend({
+  // activate: function() {},
+  // deactivate: function() {},
+  // setupController: function(controller, model) {},
+  // beforeModel: function() {},
+  // afterModel: function() {},
+  
+  model: function() {
+      return ${1};
+  },
+  renderTemplate: function(controller, model) {
+      this.render('${2}, {
+          controller: ${3:controller},
+          model: ${4:model},
+          into: '${5}',
+          outlet: '${6}'
+      });
+  }
+});
+
+]]></content>
+    <description>Ember.Route.extend()</description>
+    <tabTrigger>route</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

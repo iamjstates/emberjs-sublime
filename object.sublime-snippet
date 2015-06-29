@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+export default Ember.Object.extend({
+  init: function() {
+    ${1:Setup}
+  },
+
+  ${2:method}: function(${3:value}) {
+    ${4}
+  }
+});
+
+]]></content>
+    <description>Ember.Object.extend()</description>
+    <tabTrigger>object</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

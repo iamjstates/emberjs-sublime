@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+export default DS.Model.extend({
+  ${1:attr}: attr('${2:string}')
+});
+
+]]></content>
+    <description>DS.Model.extend()</description>
+    <tabTrigger>model</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
