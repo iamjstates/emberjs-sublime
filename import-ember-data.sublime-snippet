@@ -6,6 +6,7 @@ const attr = DS.attr,
     hasMany = DS.hasMany,
     belongsTo = DS.belongsTo;
     
+
 ]]></content>
     <description>import ES6 Ember Data</description>
     <tabTrigger>import-ember-data</tabTrigger>
