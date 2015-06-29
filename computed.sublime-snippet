@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+${1:nameFunction}:${2:Ember.}computed('${3}', {
+    get(${4}){
+        //${5}
+    },
+    set(${6}, ${7}){
+        //${8}
+    }
+});
+
+]]></content>
+    <description>Ember.computed</description>
+    <tabTrigger>computed</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
