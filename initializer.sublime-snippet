@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+export default {
+    name: '${1}',
+    // after:
+    initialize: function(${2:container}, ${3:application}){
+        ${4}
+    }
+});
+
+]]></content>
+    <description>Ember Initializer</description>
+    <tabTrigger>initializer</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
